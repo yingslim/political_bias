@@ -1,0 +1,32 @@
+
+# data
+./newspaper_articles
+./output_chinese
+./output_english
+./output_chinese_10000
+*.csv
+*.json
+06_data_analysis/figs
+output_english
+output_chinese
+# environment
+.env
+
+
+01_scrape_data/cnn/__pycache__
+01_scrape_data/cnn/cnn.py
+01_scrape_data/cnn/NewspaperScraper.py
+01_scrape_data/cnn/refactored_cnn.py
+01_scrape_data/cnn/run.sh
+01_scrape_data/cnn/RunScrapers.py
+
+01_scrape_data/nbc/nbc.py
+
+
+# output 
+06_data_analysis/*.tex
+06_data_analysis/*.tex
+
+06_data_analysis/scripts/__pycache__/model_similarities.cpython-313.pyc
+06_data_analysis/scripts/__pycache__/relative_effects.cpython-313.pyc
+06_data_analysis/scripts/__pycache__/utils.cpython-313.pyc
