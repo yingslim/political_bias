@@ -84,7 +84,7 @@ class AxiosScraper:
         
         # Setting date range - use datetime objects for consistent comparison
         self.start_date = datetime.datetime(2022, 5, 5).date()
-        self.end_date = datetime.datetime(2024, 1, 8).date()
+        self.end_date = datetime.datetime(2025, 1, 8).date()
         
         # Track seen URLs to avoid duplicates
         self.seen_urls = set()
