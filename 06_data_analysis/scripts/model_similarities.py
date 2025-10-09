@@ -370,8 +370,8 @@ def generate_highest_divergence_tables(neutral_framed, top_n=5):
         stance_zh = stance_zh[expected_cols].reset_index()
 
         # issue text
-        issue_en_df = df_en[['cluster_id','issue']].drop_duplicates('cluster_id').rename(columns={'issue':'issue_en'})
-        issue_zh_df = df_zh[['cluster_id','issue']].drop_duplicates('cluster_id').rename(columns={'issue':'issue_zh'})
+        issue_en_df = df_en[['cluster_id','topic_text']].drop_duplicates('cluster_id').rename(columns={'topic_text':'issue_en'})
+        issue_zh_df = df_zh[['cluster_id','topic_text']].drop_duplicates('cluster_id').rename(columns={'topic_text':'issue_zh'})
 
         # merge together
         merged = stance_en.merge(issue_en_df, on='cluster_id', how='left')

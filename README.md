@@ -65,3 +65,9 @@ All analyses are implemented in Python and follow a modular pipeline organized b
 ├── d_analyze_relative_effects.ipynb
 └── e_statistical_sig_tests.ipynb
 ```
+
+## License
+
+This curated dataset (`data/political_bias.csv') is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). All model responses are licensed under the license of the respective model provider.
+
+

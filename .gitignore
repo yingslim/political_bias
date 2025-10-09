@@ -4,9 +4,14 @@
 ./output_chinese
 ./output_english
 ./output_chinese_10000
-*.csv
+# *.csv
 *.json
 06_data_analysis/figs
+data/Topic Identification - Chinese.csv
+data/Topic Identification - English.csv
+data/Topic Identification - Templates.csv
+data/FULL_DATA_FOR_DATA_ANALYSIS.csv
+data/for_data_analysis.csv
 output_english
 output_chinese
 # environment
@@ -30,3 +35,8 @@ output_chinese
 06_data_analysis/scripts/__pycache__/model_similarities.cpython-313.pyc
 06_data_analysis/scripts/__pycache__/relative_effects.cpython-313.pyc
 06_data_analysis/scripts/__pycache__/utils.cpython-313.pyc
+06_data_analysis/annotation.ipynb 
+FULL_DATA_09072025_1931.csv
+generated_prompts_multilingual_with_framing_28092025_responses_with_model_instruction.csv
+generated_prompts_multilingual_with_framing_28092025.csv
+generated_prompts_multilingual_with_framing_28092025_responses.csv

@@ -89,13 +89,13 @@ for cluster_id, (english_text, chinese_text) in issues_map.items():
     text_to_cluster[english_text] = cluster_id
     text_to_cluster[chinese_text] = cluster_id
 
-def map_issue_to_cluster(df, issue_column='issue'):
+def map_issue_to_cluster(df, issue_column='topic_text'):
     """
     Map issue text to cluster IDs and add as a new column.
     
     Parameters:
     df: pandas DataFrame containing the issue column
-    issue_column: name of the column containing issue text (default: 'issue')
+    issue_column: name of the column containing issue text (default: 'topic_text')
     
     Returns:
     DataFrame with added 'new_id' column
