@@ -2,9 +2,9 @@
 
 This dataset (`political_bias`) contains model-generated (and judged) text around issues concerning U.S. and China, with metadata for framing, language, and stance evaluation.
 
-> **Note on prefixes (raw data):** In the **raw** source, `cluster_id` values may be prefixed with a letter:  
-> - `e` → items **from U.S. media about China**  
-> - `c` → items **from Chinese media about the U.S.**  
+> **Note on prefixes:** In the data source, `cluster_id` values may be prefixed with a letter:  
+> - `e` → issues identified **from U.S. media about China**  
+> - `c` → issues identified **from Chinese media about the U.S.**  
 > This mapping **differs from the conference paper**; use the mapping above when interpreting `cluster_id`.
 
 ---
@@ -30,4 +30,5 @@ This dataset (`political_bias`) contains model-generated (and judged) text aroun
 ## Interpretation Notes
 
 - **Framing vs. Stance:**  
+
   `framing` is the intended slant in the **input prompt**; `stance` is the **judged outcome** of the model’s **output**. 
